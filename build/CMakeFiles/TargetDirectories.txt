@@ -1,3 +1,0 @@
-/home/hnamhocit/Workspace/shopping-system/build/CMakeFiles/ShoppingSystem.dir
-/home/hnamhocit/Workspace/shopping-system/build/CMakeFiles/edit_cache.dir
-/home/hnamhocit/Workspace/shopping-system/build/CMakeFiles/rebuild_cache.dir
