@@ -10,7 +10,7 @@ private:
     Address shippingAddress;
 
 public:
-    Customer(const std::string& name, const std::string& email, const std::string& phone, const Address& address);
+    Customer(std::string name, std::string email, std::string phone, Address address);
     Customer();
 
     std::string getName() const;

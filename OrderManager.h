@@ -9,7 +9,7 @@ private:
 
 public:
     OrderManager();
-    void addOrder(const Order& order);
+    void addOrder(Order order);
     std::vector<Order> getAllOrders() const;
     int getNextOrderId();
     void viewAllOrders() const;

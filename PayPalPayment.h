@@ -7,7 +7,7 @@ private:
     std::string email;
 
 public:
-    PayPalPayment(const std::string& accountEmail);
+    PayPalPayment(std::string accountEmail);
 
     bool processPayment(double amount) const override;
     std::string getMethodName() const override;

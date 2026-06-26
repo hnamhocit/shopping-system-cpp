@@ -9,7 +9,7 @@ private:
     int quantity;
 
 public:
-    OrderItem(int pId, const std::string& name, double price, int qty);
+    OrderItem(int pId, std::string name, double price, int qty);
 
     int getProductId() const;
     std::string getProductName() const;

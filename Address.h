@@ -9,7 +9,7 @@ private:
     std::string zipCode;
 
 public:
-    Address(const std::string& st, const std::string& c, const std::string& s, const std::string& z);
+    Address(std::string st, std::string c, std::string s, std::string z);
     Address(); // Default constructor
 
     std::string getStreet() const;

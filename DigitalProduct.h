@@ -1,3 +1,5 @@
+#pragma once
+
 #include "Product.h"
 #include <string>
 
@@ -6,8 +8,8 @@ private:
   std::string downloadLink;
 
 public:
-  DigitalProduct(int id, const std::string &name, double price,
-                 const Category &category, const std::string &downloadLink);
+  DigitalProduct(int id, std::string name, double price,
+                 Category category, std::string downloadLink);
   double getShippingFee() const override;
   std::string getType() const override;
   void display() const override;

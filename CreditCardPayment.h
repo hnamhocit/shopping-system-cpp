@@ -9,7 +9,7 @@ private:
     std::string cvv;
 
 public:
-    CreditCardPayment(const std::string& cardNum, const std::string& exp, const std::string& cvvCode);
+    CreditCardPayment(std::string cardNum, std::string exp, std::string cvvCode);
 
     bool processPayment(double amount) const override;
     std::string getMethodName() const override;

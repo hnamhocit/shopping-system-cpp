@@ -8,7 +8,7 @@ private:
   std::string name;
 
 public:
-  Category(int id, const std::string &name);
+  Category(int id, std::string name);
   int getId() const;
   std::string getName() const;
 };

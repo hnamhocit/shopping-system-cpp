@@ -1,9 +1,9 @@
 #include "DigitalProduct.h"
 #include <iostream>
 
-DigitalProduct::DigitalProduct(int id, const std::string &name, double price,
-                               const Category &category,
-                               const std::string &downloadLink)
+DigitalProduct::DigitalProduct(int id, std::string name, double price,
+                               Category category,
+                               std::string downloadLink)
     : Product(id, name, price, category), downloadLink(downloadLink) {}
 
 double DigitalProduct::getShippingFee() const { return 0; }

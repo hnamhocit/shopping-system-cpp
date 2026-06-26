@@ -15,7 +15,7 @@ private:
     std::string status;
 
 public:
-    Order(int id, const Customer& cust, const std::vector<OrderItem>& itemsList, const ShippingMethod& shipping, double total);
+    Order(int id, Customer cust, std::vector<OrderItem> itemsList, ShippingMethod shipping, double total);
 
     int getOrderId() const;
     Customer getCustomer() const;
@@ -23,5 +23,5 @@ public:
     ShippingMethod getShippingMethod() const;
     double getTotalAmount() const;
     std::string getStatus() const;
-    void setStatus(const std::string& newStatus);
+    void setStatus(std::string newStatus);
 };

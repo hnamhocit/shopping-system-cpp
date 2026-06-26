@@ -1,8 +1,8 @@
 #include "PhysicalProduct.h"
 #include <iostream>
 
-PhysicalProduct::PhysicalProduct(int id, const std::string &name, double price,
-                                 const Category &category, double weight,
+PhysicalProduct::PhysicalProduct(int id, std::string name, double price,
+                                 Category category, double weight,
                                  double shippingFee)
     : Product(id, name, price, category), weight(weight),
       shippingFee(shippingFee) {}

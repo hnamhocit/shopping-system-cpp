@@ -1,7 +1,7 @@
 #include "CreditCardPayment.h"
 #include <iostream>
 
-CreditCardPayment::CreditCardPayment(const std::string& cardNum, const std::string& exp, const std::string& cvvCode)
+CreditCardPayment::CreditCardPayment(std::string cardNum, std::string exp, std::string cvvCode)
     : cardNumber(cardNum), expiryDate(exp), cvv(cvvCode) {}
 
 bool CreditCardPayment::processPayment(double amount) const {

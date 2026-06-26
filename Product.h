@@ -11,12 +11,11 @@ private:
   Category category;
 
 public:
-  Product(int id, const std::string &name, double price,
-          const Category &category);
+  Product(int id, std::string name, double price, Category category);
   int getId() const;
   std::string getName() const;
   double getPrice() const;
-  const Category &getCategory() const;
+  Category getCategory() const;
 
   virtual void display() const = 0;
   virtual double getShippingFee() const = 0;

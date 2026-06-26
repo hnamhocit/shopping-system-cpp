@@ -8,7 +8,7 @@ private:
     int estimatedDays;
 
 public:
-    ShippingMethod(const std::string& name, double cost, int estimatedDays);
+    ShippingMethod(std::string name, double cost, int estimatedDays);
     ShippingMethod();
 
     std::string getName() const;

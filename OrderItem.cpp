@@ -1,6 +1,6 @@
 #include "OrderItem.h"
 
-OrderItem::OrderItem(int pId, const std::string& name, double price, int qty)
+OrderItem::OrderItem(int pId, std::string name, double price, int qty)
     : productId(pId), productName(name), priceAtPurchase(price), quantity(qty) {}
 
 int OrderItem::getProductId() const { return productId; }

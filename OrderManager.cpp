@@ -3,7 +3,7 @@
 
 OrderManager::OrderManager() : nextOrderId(1001) {}
 
-void OrderManager::addOrder(const Order& order) {
+void OrderManager::addOrder(Order order) {
     orders.push_back(order);
 }
 
